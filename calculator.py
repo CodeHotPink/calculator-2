@@ -35,4 +35,8 @@ if math_list[0] == "cube":
 	print(cube(float(math_list[1])))
 
 if math_list[0] == "pow":
-	print(power(float(math_list[1]),float(math_list[2])))	
+	print(power(float(math_list[1]),float(math_list[2])))
+
+if math_list[0] == "%":
+	print(mod(float(math_list[1]),float(math_list[2])))	
+
