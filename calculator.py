@@ -21,3 +21,6 @@ if math_list[0] == "+":
 
 if math_list[0] == "-":
 	print(subtract(float(math_list[1]),float(math_list[2])))
+
+if math_list[0] == "*":
+	print(multiply(float(math_list[1]),float(math_list[2])))	
