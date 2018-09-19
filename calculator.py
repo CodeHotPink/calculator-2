@@ -34,3 +34,5 @@ if math_list[0] == "square":
 if math_list[0] == "cube":
 	print(cube(float(math_list[1])))
 
+if math_list[0] == "pow":
+	print(power(float(math_list[1]),float(math_list[2])))	
