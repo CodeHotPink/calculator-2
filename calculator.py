@@ -27,3 +27,6 @@ if math_list[0] == "*":
 
 if math_list[0] == "/":
 	print(divide(float(math_list[1]),float(math_list[2])))	
+
+if math_list[0] == "square":
+	print(square(float(math_list[1])))
