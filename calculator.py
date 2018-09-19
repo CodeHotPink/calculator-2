@@ -48,7 +48,7 @@ while True:
 	if math_list[0] == "cube":
 		print(cube(float(math_list[1])))
 
-	if math_list[0] == "pow":
+	if math_list[0] == "power":
 		print(power(float(math_list[1]),float(math_list[2])))
 
 	if math_list[0] == "%":
