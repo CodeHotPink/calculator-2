@@ -13,15 +13,21 @@ Get input from user
 	check conditions to know which math function to run
 	call the math function
 """
-
-valid_operators = ["+", "-", "*", "/", "square", "cube", "power", "%"]	
+def get_user_input():
+	while True:
+		valid_operators = ["+", "-", "*", "/", "square", "cube", "power", "%"]	
+		print("Enter an operator followed by 1-2 numbers.")
+		user_input = input("> ").split()
+		if user_input[0].startswith("q"):
+			return(False)
+		if user_input[0] in valid_operators:
+			return(user_input)
+		else:
+			print("Enter a valid operator.")
 
 while True:
-
-	user_input = input("")
-	math_list = user_input.split()
-
-	if user_input == "q":
+	math_list = get_user_input()
+	if math_list is False:
 		break
 
 	if math_list[0] == "+":
