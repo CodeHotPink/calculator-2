@@ -30,3 +30,7 @@ if math_list[0] == "/":
 
 if math_list[0] == "square":
 	print(square(float(math_list[1])))
+
+if math_list[0] == "cube":
+	print(cube(float(math_list[1])))
+
