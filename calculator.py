@@ -14,6 +14,8 @@ Get input from user
 	call the math function
 """
 
+valid_operators = ["+", "-", "*", "/", "square", "cube", "power", "%"]	
+
 while True:
 
 	user_input = input("")
