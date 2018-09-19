@@ -17,11 +17,11 @@ Get input from user
 while True:
 
 	user_input = input("")
-	math_list = user_input.split(" ")
+	math_list = user_input.split()
 
 	if user_input == "q":
 		break
-		
+
 	if math_list[0] == "+":
 		print(add(float(math_list[1]),float(math_list[2])))
 
