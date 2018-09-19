@@ -18,4 +18,6 @@ user_input = input("")
 math_list = user_input.split(" ")
 if math_list[0] == "+":
 	print(add(float(math_list[1]),float(math_list[2])))
-	
+
+if math_list[0] == "-":
+	print(subtract(float(math_list[1]),float(math_list[2])))
